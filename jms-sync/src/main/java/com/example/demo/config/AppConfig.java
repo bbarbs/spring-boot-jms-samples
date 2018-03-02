@@ -35,9 +35,4 @@ public class AppConfig {
         converter.setTypeIdPropertyName("_type");
         return converter;
     }
-
-    //@Bean
-    //public JmsTemplate jmsTemplate() {
-    //    return new JmsTemplate();
-    //}
 }

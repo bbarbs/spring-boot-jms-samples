@@ -26,7 +26,7 @@ public class DemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		this.logger.info("Send Email");
+		this.logger.info("Sending Email");
 		// Send message with POJO and the template will use the converter to convert the message.
 		jmsTemplate.convertAndSend("testMail", new Email("test@gmail.com", "Test JMS"));
 	}
